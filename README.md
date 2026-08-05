@@ -2,4 +2,4 @@
 Gitmore v2.0 is an NN model built on (Recurrent Neural Networks entirely).
 The Gitmore v2.0 is twice smaller than the v1 built on MLP with context window. 
 
-This model would remove nn.BatchNorm1d, to work entirely with RNN.
+GitMore v2 is a very small model it removes all the deep layers which found to be contributing almost nothing to the model
