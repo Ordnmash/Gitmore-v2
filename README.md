@@ -7,3 +7,5 @@ to vanishing gradient problem which slows our model down.
 
 Yes we should use layerNorm instead of BatchNorm
 -with layerNorm we'll .mean() over the rows instead of columns which during sampling time the the mean of single column gives us errors 
+
+the code of changings would be uploaded below in this Repo
