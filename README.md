@@ -4,3 +4,5 @@ The Gitmore v2.0 is almost 10x smaller than the v1 built on MLP with context win
 
 within the Jupyter-Notebook file we show plot of the tanh layer of RNN, the plot indicates the saturation of tanh layer which leads
 to vanishing gradient problem which slows our model down.
+
+this would be the foundation of GitMore v3 which would be built on LSTMs
