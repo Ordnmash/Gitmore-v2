@@ -8,3 +8,5 @@ to vanishing gradient problem which slows our model down.
 to make the Network more deeper we need Layer Normalization instead of BatchNorm - BatchNorm fails at different timesteps
 
 this would be the foundation of GitMore v3 which would be built on LSTMs
+
+then after LSTMs we would deeper the model through WaveNets character LM
