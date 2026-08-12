@@ -1,7 +1,7 @@
 # Gitmore-v2
 Gitmore v2.0 is an NN model built on (Recurrent Neural Networks entirely).
 <p align="center">
-  <img src="gitmore_logo.png" width="800" height="400" alt="tictactoe_Robot">
+  <img src="gitmore_logo.png" width="800" height="400" alt="GiMore_logo">
 </p>
 The Gitmore v2.0 is almost 10x smaller than the v1 built on MLP with context window. 
 within the Jupyter-Notebook file we show plot of the tanh layer of RNN, the plot indicates the saturation of tanh layer which leads
