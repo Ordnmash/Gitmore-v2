@@ -6,5 +6,6 @@ Gitmore v2.0 is an NN model built on (Recurrent Neural Networks entirely).
 <hr>
 <b>The size of Gitmore v2.0 model is `4 layers` with `40k parameters`.</b> <br>
 <i>this model really outperformed the GitMore v1 with `250k parameters`</i> <br>
------performance.-----<br>
+<br>
+<b>-----performance.-----</b><br>
 <i>the model achieved training loss of <b>1.45124</b> and validation loss of <b>1.51213</b></i>
