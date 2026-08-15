@@ -11,4 +11,3 @@ def build_dataset(commits):
     y.append(torch.tensor(yy[1:]))
   
   return x, y
-  
