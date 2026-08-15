@@ -10,4 +10,4 @@ def build_dataset(commits):
     x.append(torch.tensor(xx[:-1]))
     y.append(torch.tensor(yy[1:]))
   
-  return x, y
+  return x, y # dataset is returned as raw python lists with tensors of different length where length is sequence length
