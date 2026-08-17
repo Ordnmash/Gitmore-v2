@@ -8,5 +8,5 @@ Gitmore v2.0 is an NN model built on (Recurrent Neural Networks entirely).
 <i>this model really outperformed the GitMore v1 with `250k parameters`</i> <br>
 <br>
 <b>-----performance.-----</b><br>
-<i>the model achieved training loss of <b>1.492690</b> and validation loss of <b>1.594140</b></i><br>
+<i>the model achieved training loss of <b>1.394651</b> and validation loss of <b>1.594140</b></i><br>
 <i>yet this came with a problem of vanishing gradients, as the activation on the hidden layer got roughly 70% saturation, which was not good at all.</i>
