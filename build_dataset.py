@@ -10,4 +10,4 @@ def build_dataset(commits):
     x.append(torch.tensor(xx[:-1]))
     y.append(torch.tensor(yy[1:]))
   
-  return x, y # because sequence leangth of commits are not equal we'll embed the chunks into lists
+  return x, y
