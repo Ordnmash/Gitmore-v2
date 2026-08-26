@@ -1,5 +1,6 @@
 def build_dataset(commits):
-  x, y = [],[]
+  x= []
+  y= []
   for c in commits:
     xx = []
     yy = []
