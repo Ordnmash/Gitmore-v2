@@ -9,6 +9,6 @@ Gitmore v2.0 is an NN model built-on (Recurrent Neural Networks entirely).
 <br>
 <b>-----performance-----</b><br>
 <i>The model achieved training loss of <b>1.394651</b> and validation loss of <b>1.508826</b></i><br>
-<i>Yet this came with a problem of vanishing gradients, as the activation on the hidden layer got roughly 70% saturation, which was not good at all.</i> But this still keeps the performance of the model pretty good!<br>
+<i>Yet this came with a problem of vanishing gradients, as the activation on the hidden layer got roughly 70% saturation, which was not good at all.</i> But for that model the performance remained good.<br>
 <br>
 Because the training and the validation loss are less different - that means we can extent the hyperParameters to increase the model's performance which would drive the loss down. However training and validation loss would start to decay. 
