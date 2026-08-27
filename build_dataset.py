@@ -2,7 +2,7 @@ def build_dataset(commits):
   x = []
   y = []
   for c in commits:
-    xx,yy = [] 
+    xx = [] 
     yy = []
     for ch in '^' + c + '^': # wrap each commit between special tokens
       xx.append(stoi[ch])
