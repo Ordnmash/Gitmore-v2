@@ -9,4 +9,5 @@ def build_dataset(commits):
       yy.append(stoi[ch])
     x.append(torch.tensor(xx[:-1]))
     y.append(torch.tensor(yy[1:]))
+    
   return x, y # return the dataset as list of variable sequence length
