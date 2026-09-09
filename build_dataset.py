@@ -3,9 +3,10 @@ def build_dataset(commits):
   for c in commits:
     xx = [] 
     yy = []
-    for ch in '^' + c + '^': # wrap each commit between special tokens for training efficiency
-      xx.append(stoi[ch])
-      yy.append(stoi[ch])
+    for ic in '^' + c + '^': # wrap each commit between special tokens for training efficiency
+      xx.append(stoi[ic])
+      yy.append(stoi[ic])
+      
     x.append(torch.tensor(xx[:-1]))
     y.append(torch.tensor(yy[1:]))
   return (x,y)
