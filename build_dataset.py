@@ -1,5 +1,6 @@
-def build_dataset(commits):
-  x,y = [],[]
+def build_dataset(commits: list[str]) -> tuple[list]:
+  x = []
+  y = []
   for c in commits:
     xx = [] 
     yy = []
